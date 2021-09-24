@@ -43,10 +43,49 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    padding-bottom: inherit;
+    padding-bottom: 25px;
 }
 
 a {
     color: rgba(62, 78, 221, 0.719);
     text-decoration: none;
 }
+
+.hero {
+    background-image: url("../images/myself2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    padding-top: 25px;
+}
+
+main {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    width: 75%;
+    display: inline-block;
+}
+
+.content-style {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 50px;
+    float: middle;
+    background-color:rgb(235, 135, 135);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+p {
+    font-size: 16px;
+
+} 
+
+
+
