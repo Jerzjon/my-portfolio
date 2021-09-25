@@ -5,27 +5,28 @@
 }
 
 body {
-    background-color: #fafeffe0;
+    background-color: #FEFFFF;
 }
 
 .header{
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
+    color: #FEFFFF;
     float: middle;
     padding: 5px;
-    background-color:rgb(255, 89, 89);
+    background-color: #3aafa9;
 }
 
 .header h1{
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 5px;
+    color: #17252A;
 }
 
 .header img {
     height: 165px;
     width: 165px;
     display: block;
-    border: rgb(255, 255, 255);
+    border: #def2f1;
     border-style: solid;
     border-radius: 10px;
 }
@@ -33,9 +34,10 @@ body {
 .header nav {
     margin-top: -10px;
     margin-right: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     float: right;
+    color: #FEFFFF;
 }
 
 .header nav ul {
@@ -49,7 +51,7 @@ body {
 }
 
 a {
-    color: rgba(81, 109, 235, 0.842);
+    color: #def2f1;
     text-decoration: none;
 }
 
@@ -58,26 +60,32 @@ a {
     background-position: center;
     height: 700px;
     width: 100%;
-    margin-bottom: 25px;
     padding-top: 25px;
-    background-color: lightcyan;
+    padding-bottom: 25px;
+    background-color: #17252A
 }
 
 
-.about-me-style {
-    margin-bottom: 25px;
-    margin-left: 30px;
-    padding: 50px;
-    float: right;
-    background-color:rgb(255, 89, 89);
+.side-panel {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: 20px;
+    float: left;
+    background-color:#def2f1;
     font-size: 15px;
-    color: rgb(255, 255, 255);
-    width: 100%;
+    color: #17252A;
+    width: 15%;
+    height: 800px
+}
+
+.side-panel ul li {
+    list-style-type: none;
 }
 
 .about-me-details {
     float: middle;
     margin-left: 200px;
+    padding-top: 75px;
 }
 
 h2 {
@@ -85,26 +93,13 @@ h2 {
     font-size: 75px;
     padding: 50px;
     float: left;
-    background-color:rgb(255, 89, 89);
-    font-size: 15px;
-    color: rgb(255, 255, 255);
+    background-color: #def2f1;
+    font-size: 30px;
+    color: #17252A;
     width: 75%;
 }
 
-.work {
-    margin-bottom: 25px;
-    padding: 50px;
-    float: right;
-    background-color:rgba(81, 109, 235, 0.842);
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    width: 75%; 
-}
 
-h3 {
-    margin-bottom: 20px;
-    font-size: 40px;
-}
 
 
 
