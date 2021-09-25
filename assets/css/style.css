@@ -12,12 +12,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #FEFFFF;
     float: middle;
-    padding: 5px;
+    padding-top: 20px;
+    padding: 10px;
     background-color:#2B7A78;
 }
 
 .header h1{
-    font-size: 18px;
+    font-size: 25px;
     padding-bottom: 5px;
     color: #17252A;
 }
@@ -38,6 +39,7 @@ body {
     font-size: 20px;
     float: right;
     color: #FEFFFF;
+    padding-top: 10px;
 }
 
 .header nav ul {
@@ -67,7 +69,6 @@ a {
 
 
 .side-panel {
-    margin-bottom: 20px;
     margin-left: 0px;
     float: left;
     background-color:#def2f1;
@@ -76,27 +77,6 @@ a {
     width: 20%;
     height: 900px;
     border-right: 10px solid #17252A;
-    padding: 20px;
-}
-
-section.a {
-    margin: 20px;
-
-}
-
-section.b {
-    margin: 20px;
-
-}
-
-section.c {
-    margin: 20px;
-
-}
-
-section.d {
-    margin: 100px;
-
 }
 
 .side-panel ul li {
@@ -105,13 +85,20 @@ section.d {
 
 .about-me-details {
     float: middle;
-    padding-top: 75px;
+    padding-top: 50px;
     background-color: #3aafa9;
     font-size: 16px;
     height: 175px;
-    text-indent: 50px;
+    text-indent: 75px;
 }
 
+.side-sections {
+    position:relative; 
+    left:100px;
+
+
+
+}
 h2 {
     margin-bottom: 25px;
     font-size: 75px;
@@ -122,8 +109,4 @@ h2 {
     color: #17252A;
     width: 75%;
 }
-
-
-
-
 
