@@ -5,11 +5,11 @@
 }
 
 body {
-    background-color: #FEFFFF;
+    background-color: #def2f1;
 }
 
 .header{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #FEFFFF;
     float: middle;
     padding-top: 20px;
@@ -18,24 +18,23 @@ body {
 }
 
 .header h1{
-    font-size: 25px;
+    font-size: 40px;
     padding-bottom: 5px;
     color: #17252A;
 }
 
-.header img {
-    height: 165px;
-    width: 165px;
-    display: block;
-    border: #def2f1;
-    border-style: solid;
-    border-radius: 10px;
+.about-me-img {
+    height: 150px;
+    width: 150px;
+    border:  #17252A;
+    border-width: medium;
+    border-radius: 90px;
 }
 
 .header nav {
-    margin-top: -10px;
+    margin-top: 0px;
     margin-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     float: right;
     color: #FEFFFF;
@@ -69,14 +68,12 @@ a {
 
 
 .side-panel {
-    margin-left: 0px;
     float: left;
-    background-color:#def2f1;
     font-size: 15px;
     color: #17252A;
-    width: 20%;
+    width: 18%;
     height: 900px;
-    border-right: 10px solid #17252A;
+    border-right: 8px solid #17252A;
 }
 
 .side-panel ul li {
@@ -86,27 +83,22 @@ a {
 .about-me-details {
     float: middle;
     padding-top: 50px;
+    padding-left: 100px;
     background-color: #3aafa9;
-    font-size: 16px;
+    font-size: 18px;
     height: 175px;
     text-indent: 75px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.side-sections {
-    position:relative; 
-    left:100px;
-
-
-
-}
 h2 {
-    margin-bottom: 25px;
     font-size: 75px;
-    padding: 50px;
     float: left;
     background-color: #def2f1;
     font-size: 30px;
     color: #17252A;
     width: 75%;
+    padding: 100px;
 }
 
