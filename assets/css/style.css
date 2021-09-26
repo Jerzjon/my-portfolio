@@ -10,32 +10,26 @@ body {
 
 .header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #FEFFFF;
-    float: middle;
-    padding-top: 20px;
-    padding: 10px;
+    color: #ffffff;
+    padding: 20px;
     background-color:#2B7A78;
 }
 
 .header h1{
-    font-size: 40px;
-    padding-bottom: 5px;
+    font-size: 44px;
     color: #17252A;
+    display: inline-block;
 }
 
 .header nav {
-    margin-top: 0px;
-    margin-right: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    float: right;
-    color: #FEFFFF;
     padding-top: 10px;
+    margin-right: 25px;
+    float: right;
+    font-size: 20px;
 }
 
 .header nav ul {
     list-style-type: none;
-    padding: 0
     }
 
 .header nav ul li {
@@ -177,11 +171,6 @@ article {
     position: absolute;
     font: #def2f1 italic 20px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     opacity: 0.4;
-}
-}
-
-.image-font-horiseon:hover {
-    opacity: 1.0;
 }
 
 .footer {
