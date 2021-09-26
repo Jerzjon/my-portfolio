@@ -76,7 +76,6 @@ a {
 }
 
 .side-panel ul li h2 {
-    border-right: 8px solid #17252A;
     width: 500px;
     text-align: right;
     margin: 40px;
@@ -90,18 +89,43 @@ a {
     padding: 50px;
     margin-top: auto;
     margin-bottom: auto;
+    height: 25px;
+    background:orchid;
+}
+.about-me-style {
+    width: 100px;
+    border-right:rgb(23, 59, 175);
+    border-width: 10px;
+    margin: 10px;
+    padding: 10px;
+    background:lightcoral;
+}
+
+.resume-style {
+    width: 800px;
+    border: 10px;
+    margin: 100px;
+    padding: 100px;
+    background:rgb(23, 59, 175);
+}
+
+.contact-style {
+    width: 200px;
+    border: 10px;
+    margin: 300px;
+    padding: 100px;
+    background:yellowgreen;
 }
 
 .about-me-img {
     height: 150px;
     width: 150px;
     border-image:  #17252A;
-    border-width: 100px;
+    border-width: 10px;
     border-radius: 90px;
     padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    display: block; 
 }
 
 .about-me-details {
@@ -110,6 +134,14 @@ a {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #17252A;
+    width: 1450px;
+    padding: 20px;
+    height: 100px;
+    margin: auto;
+    border-width: 8px;
+    border-left-style: solid;
+    border-color: #17252A;
+
 }
 
 h2 {
@@ -118,7 +150,11 @@ h2 {
     background-color: #def2f1;
     font-size: 30px;
     color: #17252A;
-    width: 75%;
-    padding: 100px;
+}
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    clear: both;
 }
 
