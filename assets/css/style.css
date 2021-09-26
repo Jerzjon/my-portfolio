@@ -156,6 +156,26 @@ h2 {
     border-width: 6px;
     border-color: #2B7A78;
     margin-left: 5%;
+    opacity: 0.4;
+}
+
+.work-details:hover {
+    opacity: 1.0;
+}
+    
+
+.image-font-horiseon {
+    margin-top: -4%;
+    margin-left: 36%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic; 
+    color: #def2f1;
+    padding: 10px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #2B7A78;
+    position: absolute;
 }
 
 
