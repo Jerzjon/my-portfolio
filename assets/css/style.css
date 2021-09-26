@@ -149,20 +149,24 @@ h2 {
 }
 
 .work-details {
-    padding: 20px;
     text-align: center;
-    width: 1450px;
-    padding: 20px;
-    height: 750px;
+    width: 600px;
+    height: 400px;
     margin: auto;
     margin-top: 11.5%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #2B7A78;
+    margin-left: 5%;
 }
 
+
 .footer {
-    padding: 30px;
+    padding: 20px;
     clear: both;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 50%;
+    background-color: #2B7A78;
 }
