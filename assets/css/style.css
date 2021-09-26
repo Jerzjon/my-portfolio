@@ -148,14 +148,19 @@ h2 {
     margin: auto;
 }
 
+article {
+    border:solid 6px #2B7A78;
+    width: 600px;
+    height: 400px;
+    margin-top: 12%;
+    margin-left: 25%;
+
+}
+
 .work-details {
     width: 500px;
     height: 300px;
-    margin-top: 11.5%;
-    border-style: solid;
-    border-width: 6px;
-    border-color: #2B7A78;
-    margin-left: 5%;
+    margin: relative;
     opacity: 0.4;
 }
 
@@ -165,19 +170,19 @@ h2 {
     
 
 .image-font-horiseon {
-    margin-top: -4%;
-    margin-left: 36%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    font-style: italic; 
-    color: #def2f1;
+    margin-top: -5%;
+    margin-left: 0%;
     padding: 10px;
-    border-style: solid;
-    border-width: 8px;
-    border-color: #2B7A78;
+    border: solid 1px;
     position: absolute;
+    font: #def2f1 italic 20px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.4;
+}
 }
 
+.image-font-horiseon:hover {
+    opacity: 1.0;
+}
 
 .footer {
     padding: 20px;
