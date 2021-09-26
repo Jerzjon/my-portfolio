@@ -23,14 +23,6 @@ body {
     color: #17252A;
 }
 
-.about-me-img {
-    height: 150px;
-    width: 150px;
-    border:  #17252A;
-    border-width: medium;
-    border-radius: 90px;
-}
-
 .header nav {
     margin-top: 0px;
     margin-right: 10px;
@@ -69,27 +61,55 @@ a {
 
 .side-panel {
     float: left;
-    font-size: 15px;
-    color: #17252A;
     width: 18%;
     height: 900px;
-    border-right: 8px solid #17252A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    color: #17252A;
+    text-align: right;
+   
 }
 
 .side-panel ul li {
     list-style-type: none;
+   
+}
+
+.side-panel ul li h2 {
+    border-right: 8px solid #17252A;
+    width: 500px;
+    text-align: right;
+    margin: 40px;
+    padding: 80px;
+    
+}
+
+.work-style {
+    width: 500px;
+    border: 8px;
+    padding: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about-me-img {
+    height: 150px;
+    width: 150px;
+    border-image:  #17252A;
+    border-width: 100px;
+    border-radius: 90px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-me-details {
-    float: middle;
-    padding-top: 50px;
-    padding-left: 100px;
-    background-color: #3aafa9;
     font-size: 18px;
-    height: 175px;
     text-indent: 75px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #17252A;
 }
 
 h2 {
